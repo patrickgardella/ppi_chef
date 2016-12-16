@@ -1,0 +1,7 @@
+DEPENDENCIES
+  raspberry
+    path: .
+    metadata: true
+
+GRAPH
+  raspberry (0.1.0)
