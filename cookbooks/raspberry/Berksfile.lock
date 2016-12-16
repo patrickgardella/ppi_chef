@@ -1,7 +1,9 @@
 DEPENDENCIES
+  packages (~> 1.0.0)
   raspberry
     path: .
     metadata: true
 
 GRAPH
+  packages (1.0.0)
   raspberry (0.1.0)
