@@ -1,9 +1,9 @@
+# Update apt-get cache once a day
+include_recipe 'apt'
+node.set['apt']['unattended_upgrades']['update_package_lists'] = TRUE
+
 cookbook_file '/etc/network/interfaces' do
   source 'interfaces'
-end
-
-apt_update 'Update the apt cache' do
-  action :update
 end
 
 package 'iw'
